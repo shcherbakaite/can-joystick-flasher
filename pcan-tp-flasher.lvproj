@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="22308000">
+	<Property Name="NI.LV.All.SaveVersion" Type="Str">22.3</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -22,10 +23,8 @@
 		<Item Name="dashboard.vi" Type="VI" URL="../dashboard.vi"/>
 		<Item Name="flash.vi" Type="VI" URL="../flash.vi"/>
 		<Item Name="MECC CRC32.vi" Type="VI" URL="../MECC CRC32.vi"/>
+		<Item Name="PCANBasic.lvlib" Type="Library" URL="../../../../../Program Files/National Instruments/LabVIEW 2024/user.lib/pcanbasic/PCANBasic.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="user.lib" Type="Folder">
-				<Item Name="PCANBasic.lvlib" Type="Library" URL="/&lt;userlib&gt;/PCANBasic/PCANBasic.lvlib"/>
-			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
